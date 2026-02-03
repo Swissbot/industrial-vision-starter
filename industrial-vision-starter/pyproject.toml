@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-vision-starter"
+version = "0.1.0"
+description = "Industrial Vision Starter: synthetic segmentation + training + ONNX export + inference"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=1.26",
+  "opencv-python>=4.9",
+  "typer>=0.12",
+  "rich>=13.7",
+  "onnx>=1.16",
+  "onnxruntime>=1.17",
+  "torch",
+]
+
+[project.scripts]
+ivs = "ivs.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
