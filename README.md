@@ -5,7 +5,10 @@ synthetische Daten → Training → Inferenz → optionaler ONNX-Export.
 **EN:** Reference project for industrial computer vision focusing on *clean ML engineering*:
 synthetic data → training → inference → optional ONNX export.
 
-**Author / Autor:** Roger Seeberger
+<p>
+  <strong>Author / Autor:</strong> Roger Seeberger (Swissbot)<br>
+  <img src="docs/author_icon.png" alt="Author icon" width="64" />
+</p>
 
 ---
 
