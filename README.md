@@ -50,14 +50,18 @@ So the repo can be public without leaking customer data or core IP. The goal is 
 
 ## Example (synthetic) / Beispiel (synthetisch)
 
-**Input image**
-![Synthetic input](docs/00000.png)
-
-**Target mask (ground truth)**
-![Synthetic mask](docs/00000_mask.png)
-
-**Model output (overlay)**
-![Prediction overlay](docs/out.png)
+<table>
+  <tr>
+    <th>Input image</th>
+    <th>Target mask</th>
+    <th>Model output</th>
+  </tr>
+  <tr>
+    <td><img src="docs/00000.png" width="320"></td>
+    <td><img src="docs/00000_mask.png" width="320"></td>
+    <td><img src="docs/out.png" width="320"></td>
+  </tr>
+</table>
 
 
 ## Setup (Ubuntu 24.04, Python 3.12.x)
