@@ -7,6 +7,7 @@ dist/
 runs/
 data/demo/
 out*.png
+!docs/out*.png
 .pytest_cache/
 .ruff_cache/
 .vscode/
