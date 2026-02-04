@@ -51,7 +51,7 @@ So the repo can be public without leaking customer data or core IP. The goal is 
 ## Example (synthetic) / Beispiel (synthetisch)
 
 **Input image**
-![Synthetic input](docs/input_00000.png)
+![Synthetic input](docs/00000.png)
 
 **Target mask (ground truth)**
 ![Synthetic mask](docs/mask_00000.png)
