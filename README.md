@@ -54,7 +54,7 @@ So the repo can be public without leaking customer data or core IP. The goal is 
 ![Synthetic input](docs/00000.png)
 
 **Target mask (ground truth)**
-![Synthetic mask](docs/mask_00000.png)
+![Synthetic mask](docs/00000_mask.png)
 
 **Model output (overlay)**
 ![Prediction overlay](docs/out.png)
