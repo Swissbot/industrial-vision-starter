@@ -178,12 +178,9 @@ ivs bench "$RUN_DIR/model.onnx" --device cpu --n 200
 
 
 ### Optional: GPU training explicitly
-```md
-```
 ```bash
 ivs train --epochs 1 --batch-size 8 --device cuda
 ```
-
 
 
 
