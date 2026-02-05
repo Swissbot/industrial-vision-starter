@@ -67,21 +67,6 @@ So the repo can be public without leaking customer data or core IP. The goal is 
 </table>
 
 
-## Setup (Ubuntu 24.04, Python 3.12.x)
-
-### 1) Create venv
-```bash
-sudo apt update
-
-sudo apt install -y python3.12-venv
-
-python3.12 -m venv .venv
-
-source .venv/bin/activate
-
-python -m pip install -U pip
-
-```
 ## Quickstart
 
 ## Setup (Ubuntu 24.04, Python 3.12.3)
